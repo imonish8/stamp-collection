@@ -7,13 +7,13 @@ body{
 .welcome-text{
     font-size:145px;
     align-items: center;
-  animation: blurInOut 5s ;
+  animation: blurInOut 4s ;
   margin-left: 70px;
 }
 
   @keyframes blurInOut {
     0%, 100% { filter: blur(0); }
-    50% { filter: blur(4px); }
+    50% { filter: blur(50px); }
   }
   h1{
     margin-left: 300px;
@@ -86,9 +86,10 @@ section{
 
   /* Apply animation to the element */
   #search-box {
-    background: linear-gradient(to right, #e4d574, #ebd48a, #e9c37c, #a7e8ff, #f5c78e);
+    /* background: linear-gradient(to right, #e4d574, #ebd48a, #e9c37c, #a7e8ff, #f5c78e); */
+    background-image: url(sec1.jpg);
     background-size: 500% auto;
-    animation: gradientAnimation 5s linear infinite;
+    animation: gradientAnimation 200s linear infinite;
   }
 
 
